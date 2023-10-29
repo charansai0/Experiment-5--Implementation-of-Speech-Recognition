@@ -20,6 +20,7 @@ Step 8:Handle any potential errors during the transcribing process. If the audio
 Developed By : v charan sai
 Register Number : 212221240061
 ```
+```
 import speech_recognition as sr
 
 # Assign a string variable "file" with the name of the audio file that you want to transcribe.
@@ -43,7 +44,7 @@ except sr.RequestError as e:
 # Print the text in the next lines.
 for line in text.splitlines():
     print(line)
-    ```
+```
 
 ## Output:
 
